@@ -77,7 +77,9 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #f48707;
 		font-family: 'Oswald', sans-serif;
-		font-weight: normal; }
+		font-weight: normal;
+		word-spacing: 5px;
+		 }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
 	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
@@ -280,7 +282,7 @@
     .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
     .container .column,
     .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
-    .row                                        { margin-bottom: 20px; }
+    .row                                        { margin-bottom: 40px; }
 
     /* Nested Column Classes */
     .column.alpha, .columns.alpha               { margin-left: 0; }
@@ -509,14 +511,27 @@
     	font-size: 16px;
     }
     
+    h1 {
+    	text-align: center;
+    }
+    
     textarea {
     	width: 100%;
+    }
+    
+    ul.tools {
+    	list-style-type: disc;
+    }
+    
+    ul.tools > li {
+    	margin-left: 50px;
     }
     
     footer {
     	text-align: center;
     	background: #000;
     	color: #fff;
+    	padding: 30px 0;
     }
     
     footer a {
