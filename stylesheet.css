@@ -521,7 +521,7 @@
     }
     
     footer a {
-    	color: #fff;
+    	color: #fff !important;
     }
     
     div ul {
