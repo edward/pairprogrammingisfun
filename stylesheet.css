@@ -554,7 +554,25 @@
       margin-left: 50px;
     }
   
+    .tweet {
+      color: #666;
+      font-family: 'Oswald', sans-serif;
+      margin-top: -30px;
+      height: auto;
+      font-size: 20px;
+    }
     
+    q:before { 
+      content: '\201C';
+      font-size: 50px;
+      color: #ccc;
+    }
+     
+    q:after { 
+      content: '\201D'; 
+      font-size: 50px;
+      color: #ccc;
+    }
     
     
     
