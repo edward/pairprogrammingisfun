@@ -509,6 +509,24 @@
     	font-size: 16px;
     }
     
+    a {
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    a:hover {
+      color: #f48707;
+    
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    
     textarea {
     	width: 100%;
     }
@@ -521,7 +539,11 @@
     }
     
     footer a {
-    	color: #fff;
+    	color: #fff !important;
+    }
+    
+    footer a:hover {
+      color: #f48707 !important;
     }
     
     div ul {
@@ -531,8 +553,7 @@
     div ul li {
       margin-left: 50px;
     }
-    
-    
+  
     
     
     
