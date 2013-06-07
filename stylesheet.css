@@ -298,7 +298,7 @@
     .container .five.columns                    { width: 280px; }
     .container .six.columns                     { width: 340px; }
     .container .seven.columns                   { width: 400px; }
-    .container .eight.columns                   { width: 460px; }
+    .container .eight.columns                   { width: 450px; }
     .container .nine.columns                    { width: 520px; }
     .container .ten.columns                     { width: 580px; }
     .container .eleven.columns                  { width: 640px; }
@@ -351,7 +351,7 @@
         .container .five.columns                    { width: 220px; }
         .container .six.columns                     { width: 268px; }
         .container .seven.columns                   { width: 316px; }
-        .container .eight.columns                   { width: 364px; }
+        .container .eight.columns                   { width: 354px; }
         .container .nine.columns                    { width: 412px; }
         .container .ten.columns                     { width: 460px; }
         .container .eleven.columns                  { width: 508px; }
@@ -510,6 +510,10 @@
     	background: #f5f5f5 url('images/bg.jpg') repeat left top;
     	font-family: 'PT Sans', sans-serif;
     	font-size: 16px;
+    }
+    
+    floatright {
+      float: right;
     }
     
     header img {
